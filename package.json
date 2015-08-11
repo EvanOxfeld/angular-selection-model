@@ -2,7 +2,7 @@
   "name": "selection-model",
   "version": "0.8.4",
   "description": "Selection model for angularjs, the ngRepeat companion",
-  "main": "dist/selection-model.js",
+  "main": "index.js",
   "private": true,
   "directories": {
     "test": "test"
@@ -24,6 +24,9 @@
     "url": "https://github.com/jtrussell/angular-selection-model/issues"
   },
   "homepage": "https://github.com/jtrussell/angular-selection-model",
+  "peerDependencies": {
+    "angular": "^1.2.6"
+  },
   "devDependencies": {
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-concat": "~0.3.0",
